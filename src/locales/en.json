@@ -1,0 +1,56 @@
+{
+    "base64AsciiLogo": "IF9fX19fIF9fX19fX19fX19fIF9fX19fIF8gICBfX19fX19fIF9fX19fX19fX19fIAp8XyAgIF98ICBfICB8IF9fXyBcXyAgIF98IHwgfCB8IF9fXyBcICBfX198IF9fXyBcCiAgfCB8IHwgfCB8IHwgfF8vIC8gfCB8IHwgfCB8IHwgfF8vIC8gfF9fIHwgfF8vIC8KICB8IHwgfCB8IHwgfCAgICAvICB8IHwgfCB8IHwgfCAgICAvfCAgX198fCAgICAvIAogIHwgfCBcIFxfLyAvIHxcIFwgIHwgfCB8IHxffCB8IHxcIFx8IHxfX198IHxcIFwgCiAgXF8vICBcX19fL1xffCBcX3wgXF8vICBcX19fL1xffCBcX1xfX19fL1xffCBcX3w=",
+    "credits": "Made by @celt_is_god",
+    "strings": {
+        "selectNextCommand": "Select the next command",
+        "selectNextCommandFor": "Select the next command for:"
+    },
+    "commands": [
+        {
+            "name": "Commands for 1 account",
+            "value": "single",
+            "commandsList": [
+                {
+                    "name": "Auto-reply to user",
+                    "description": "If a message is sent by a user from the config, an automatic reply from the config will be sent to them",
+                    "value": "autoreply"
+                },
+                {
+                    "name": "Auto-delete messages",
+                    "description": "If a message is sent by a user from the config, you automatically delete it",
+                    "value": "autodelete"
+                },
+                {
+                    "name": "Back",
+                    "description": "Back to the main menu",
+                    "value": "back"
+                }
+            ]
+        },
+        {
+            "name": "Commands for multiple accounts",
+            "value": "accounts",
+            "commandsList": [
+                {
+                    "name": "Back",
+                    "description": "Back to the main menu",
+                    "value": "back"
+                }
+            ]
+        },
+        {
+            "name": "Other commands",
+            "value": "other",
+            "commandsList": [
+                {
+                    "name": "Back",
+                    "description": "Back to the main menu",
+                    "value": "back"
+                }
+            ]
+        }
+    ],
+    "errors": {
+        "noSuchConfig": "Config file not found"
+    }
+}

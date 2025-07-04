@@ -1,7 +1,8 @@
-import ru from './locales/ru.json' with { type: 'json' };
+import { build } from "./utils/builder.js"
 
-const main = () => {
-    console.log(Buffer.from(ru.base64AsciiLogo, 'base64').toString())
+
+const main = async () => {
+    await build()
 }
 
 main()
