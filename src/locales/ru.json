@@ -1,0 +1,15 @@
+{
+    "base64AsciiLogo": "IF9fX19fIF9fX19fX19fX19fIF9fX19fIF8gICBfX19fX19fIF9fX19fX19fX19fIAp8XyAgIF98ICBfICB8IF9fXyBcXyAgIF98IHwgfCB8IF9fXyBcICBfX198IF9fXyBcCiAgfCB8IHwgfCB8IHwgfF8vIC8gfCB8IHwgfCB8IHwgfF8vIC8gfF9fIHwgfF8vIC8KICB8IHwgfCB8IHwgfCAgICAvICB8IHwgfCB8IHwgfCAgICAvfCAgX198fCAgICAvIAogIHwgfCBcIFxfLyAvIHxcIFwgIHwgfCB8IHxffCB8IHxcIFx8IHxfX198IHxcIFwgCiAgXF8vICBcX19fL1xffCBcX3wgXF8vICBcX19fL1xffCBcX1xfX19fL1xffCBcX3w=",
+    "credits": "Сделано @celt_is_god",
+    "commands": {
+        "single": [
+            {
+                "name": "Авто-ответ пользователю",
+                "description": "Если пользователь отправляет сообщение, ему автоматически будет отправлен ответ из конфига"
+            }
+        ],
+        "accounts": [],
+        "other": []
+    },
+    "errors": {}
+}
